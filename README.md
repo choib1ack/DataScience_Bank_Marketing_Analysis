@@ -1,2 +1,2 @@
-Description of the Data Science Project
+the Data Science Project
 ===
