@@ -1,8 +1,8 @@
 Data Science project - Bank Marketing Analysis
 ===
 
-## [Presentation material](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/DS_project_final_presentation.pptx)
-If you want to watch our presentation material, please click on the image.
+## [Presentation material](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/DS_project_final_presentation.pdf)
+If you want to watch our presentation material, please click on the link.
 
 ------------
 
