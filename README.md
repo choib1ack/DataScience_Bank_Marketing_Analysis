@@ -58,10 +58,10 @@ If you want to watch our presentation material, please click on the link.
 ------------
 > #### Replace missing value
 >> #### First method
-####**After grouping by target value**, missing data of the numerical feature is replaced by the median.
+**After grouping by target value**, missing data of the numerical feature is replaced by the median.
 ![11](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/11.PNG)
 * The numetrical column 'age' replaces the missing value using median value of the age column of the customers who select 'yes' in the deposit column and median value of the age column of the customers who select 'no' in the deposit column.
-####**After grouping by target value**, missing data of the categorical feature is replaced by the mode.
+**After grouping by target value**, missing data of the categorical feature is replaced by the mode.
 ![12](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/12.PNG)
 * The numetrical column 'marital' replaces the missing value using mode value of the marital column of the customers who select 'yes' in the deposit column and mode value of the marital column of the customers who select 'no' in the deposit column.
 
