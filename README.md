@@ -118,11 +118,11 @@ Data Science project - Bank Marketing Analysis
 
 ------------
 > ### Confusion matrix
-* KNN
+* KNN   
 ![21](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/21.png)
-* Decision tree
+* Decision tree   
 ![22](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/22.png)
-* XGBoost
+* XGBoost   
 ![23](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/23.png)
 
 ------------
