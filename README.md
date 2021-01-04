@@ -1,6 +1,11 @@
 Data Science project - Bank Marketing Analysis
 ===
 
+## [Presentation material](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/DS_project_final_presentation.pptx)
+If you want to watch our presentation material, please click on the image.
+
+------------
+
 ## Objective Setting
 * When the bank conducts regular deposit marketing, it actually predicts whether the customer will apply for a regular deposit based on information such as the age of the customer and whether they will marry.
 
@@ -15,26 +20,21 @@ Data Science project - Bank Marketing Analysis
 > ### Head data
 ![1](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/1.PNG)
 
-------------
 > ### Numerical column information
 ![2](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/2.png)
 
-------------
 > ### Columns & data type
 ![3](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/3.png)
 
-------------
 > ### Target value
 ![4](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/4.PNG)
 * Approximately 5,200 customers have applied for regular deposits in the data set, accounting for 47% of the total.
 
-------------
 > ### Categorical columns
 ![5](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/5.png)
 ![6](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/6.PNG)
 * You can check the wrong data included in the columns.
 
-------------
 > ### Numerical columns
 ![7](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/7.png)
 * The distribution graphs in the Campaign, previcious, and pdays columns show that the outliers exist in that columns.
@@ -57,25 +57,22 @@ Data Science project - Bank Marketing Analysis
 
 ------------
 > #### Replace missing value
-1. After grouping by target value,   
+1. After grouping by target value,      
 **Missing data of the numerical feature is replaced by the median.**
 ![11](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/11.PNG)
-* The numetrical column 'age' replaces the missing value using median value of the age column of the customers who select 'yes' in the deposit column and median value of the age column of the customers who select 'no' in the deposit column.
-
-------------
-
-**Missing data of the categorical feature is replaced by the mode.**
+* The numetrical column 'age' replaces the missing value using median value of the age column of the customers who select 'yes' in the deposit column and median value of the age column of the customers who select 'no' in the deposit column.    
+&nbsp;**Missing data of the categorical feature is replaced by the mode.**
 ![12](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/12.PNG)
 * The numetrical column 'marital' replaces the missing value using mode value of the marital column of the customers who select 'yes' in the deposit column and mode value of the marital column of the customers who select 'no' in the deposit column.
 
 ------------
 
-2. After grouping by related feature,   
+2. After grouping by related feature,     
 **Missing data of the numerical feature is replaced by linear regression predictions or median.**
 * Median value
-![13](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/13.PNG)
+![13](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/13.PNG)    
 * Linear regression predictions
-![14](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/14.PNG)
+![14](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/14.PNG)   
 **Missing data of the categorical feature is replaced by the mode.**
 ![15](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/15.PNG)
 
@@ -126,24 +123,24 @@ Data Science project - Bank Marketing Analysis
 
 ------------
 > ### Confusion matrix
-* KNN
+* KNN   
 ![21](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/21.png)
-* Decision tree
+* Decision tree   
 ![22](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/22.png)
-* XGBoost
+* XGBoost   
 ![23](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/23.png)
 
 ------------
 
 ## Conclusion
 ![24](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/24.png)
-* Using XGBoost, we looked at the impact of the columns on the prediction of the target value and found that contact, poutcom, and duration had the highest importance.
+* Using XGBoost, we looked at the impact of the columns on the prediction of the target value and found that contact, poutcom, and duration had the highest importance.   
 ![25](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/25.png)
-* The more successful the previous marketing campaign, the higher the rate of regular deposit applications.
+* The more successful the previous marketing campaign, the higher the rate of regular deposit applications.   
 ![26](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/26.png)
-* The more contacts were made before the campaign, the higher the rate of regular deposit applications.
+* The more contacts were made before the campaign, the higher the rate of regular deposit applications.   
 ![27](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/27.png)
-* The longer the contact time, the higher the deposit application rate.
+* The longer the contact time, the higher the deposit application rate.   
 ![28](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/28.png)
 * However, we could see that the more contact attempts, the lower the deposit application rate.
 
