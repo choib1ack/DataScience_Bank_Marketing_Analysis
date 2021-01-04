@@ -49,13 +49,11 @@ If you want to watch our presentation material, please click on the link.
 * Replace wrong data to NA  
 ![9](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/9.PNG)     
 
-------------
 > ### Missing data
 > #### Drop missing data
 ![10](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/10.PNG)
 * If more than five missing values were found in one customer data, we decided that the data could not be used and dropped the row.
 
-------------
 > #### Replace missing value
 >> #### First method
 >> #### Numnerical feature
@@ -66,8 +64,6 @@ If you want to watch our presentation material, please click on the link.
 **After grouping by target value**, missing data of the categorical feature is replaced by the mode.
 ![12](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/12.PNG)
 * The numetrical column 'marital' replaces the missing value using mode value of the marital column of the customers who select 'yes' in the deposit column and mode value of the marital column of the customers who select 'no' in the deposit column.
-
-------------
 
 >> #### Second method
 >> #### Numerical feature
@@ -80,8 +76,6 @@ If you want to watch our presentation material, please click on the link.
 **After grouping by related feature**, missing data of the categorical feature is replaced by the mode.
 ![15](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/15.PNG)
 
-------------
-
 > ### Outliers
 > #### pdays column
 ![16](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/16.PNG)
@@ -90,19 +84,13 @@ If you want to watch our presentation material, please click on the link.
 ![17](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/17.PNG)
 * Outlier data can also be found in the Campaign and pre-viable columns. However, because the column was considered important for predicting the results, data with values above 35 and above 40 were considered noise in each column and replaced with a median value.
 
-------------
-
 > ### Encoding
 * The category column was encoded using LabelEncoder.
-
-------------
 
 > ### Scaling
 * The numerical column was scaled using MinMaxScaler.
 
 ------------
-
-
 ## Data Analysis
 * Using KNN, Decision tree, and XGBoost
 
@@ -113,19 +101,16 @@ If you want to watch our presentation material, please click on the link.
 ![18](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/18.PNG)
 * You can check for higher accuracy when using a classifier that tunes the parameter.
 
-------------
 > ### Way of preprocessing
 ![19](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/19.PNG)
 * When two pre-processed methods were applied, the second method showed a slightly higher acuity with the decision tree and xgboost models.
 
-------------
 > ### Comparison of three algorithms
 ![20](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/20.PNG)
 * Using three models, XGBoost showed the highest prediction accuracy.
 * When we used the bagging method, we could see that the decision tree was slightly higher while the knn was slightly lower.
 * When the three models were applied to the majority voting method, they were able to check for lower accuracy than xgboost.
 
-------------
 > ### Confusion matrix
 * KNN   
 ![21](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/21.png)
