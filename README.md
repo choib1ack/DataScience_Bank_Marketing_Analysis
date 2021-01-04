@@ -15,26 +15,21 @@ Data Science project - Bank Marketing Analysis
 > ### Head data
 ![1](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/1.PNG)
 
-------------
 > ### Numerical column information
 ![2](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/2.png)
 
-------------
 > ### Columns & data type
 ![3](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/3.png)
 
-------------
 > ### Target value
 ![4](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/4.PNG)
 * Approximately 5,200 customers have applied for regular deposits in the data set, accounting for 47% of the total.
 
-------------
 > ### Categorical columns
 ![5](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/5.png)
 ![6](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/6.PNG)
 * You can check the wrong data included in the columns.
 
-------------
 > ### Numerical columns
 ![7](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/7.png)
 * The distribution graphs in the Campaign, previcious, and pdays columns show that the outliers exist in that columns.
@@ -57,12 +52,10 @@ Data Science project - Bank Marketing Analysis
 
 ------------
 > #### Replace missing value
-1. After grouping by target value,   
+1. After grouping by target value,      
 **Missing data of the numerical feature is replaced by the median.**
 ![11](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/11.PNG)
-* The numetrical column 'age' replaces the missing value using median value of the age column of the customers who select 'yes' in the deposit column and median value of the age column of the customers who select 'no' in the deposit column.
-
-------------
+* The numetrical column 'age' replaces the missing value using median value of the age column of the customers who select 'yes' in the deposit column and median value of the age column of the customers who select 'no' in the deposit column.    
 
 **Missing data of the categorical feature is replaced by the mode.**
 ![12](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/12.PNG)
