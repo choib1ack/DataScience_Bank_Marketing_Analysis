@@ -33,7 +33,7 @@ If you want to watch our presentation material, please click on the link.
 > ### Categorical columns
 ![5](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/5.png)
 ![6](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/6.PNG)
-* You can check the wrong data included in the columns.
+* We can check the wrong data included in the columns.
 
 > ### Numerical columns
 ![7](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/7.png)
@@ -104,7 +104,7 @@ If you want to watch our presentation material, please click on the link.
 
 
 ## Data Analysis
-* Use KNN, Decision tree, and XGBoost
+* Using KNN, Decision tree, and XGBoost
 
 ------------
 
