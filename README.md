@@ -1,6 +1,11 @@
 Data Science project - Bank Marketing Analysis
 ===
 
+## [Presentation material](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/DS_project_final_presentation.pptx)
+If you want to watch our presentation material, please click on the image.
+
+------------
+
 ## Objective Setting
 * When the bank conducts regular deposit marketing, it actually predicts whether the customer will apply for a regular deposit based on information such as the age of the customer and whether they will marry.
 
