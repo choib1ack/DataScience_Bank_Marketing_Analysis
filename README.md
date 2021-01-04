@@ -79,10 +79,10 @@ If you want to watch our presentation material, please click on the link.
 ------------
 
 > ### Outliers
-* pdays column
+> #### pdays column
 ![16](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/16.PNG)
 * The pdays column, which refers to the number of days elapsed from the date of contact, has a value of -1 of 74.5%. This column was dropped because the meaning of -1 could not be clearly identified.
-* campaign and previous column
+> #### campaign and previous column
 ![17](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/17.PNG)
 * Outlier data can also be found in the Campaign and pre-viable columns. However, because the column was considered important for predicting the results, data with values above 35 and above 40 were considered noise in each column and replaced with a median value.
 
