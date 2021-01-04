@@ -29,9 +29,9 @@ Data Science project - Bank Marketing Analysis
 * Dirty data was processed in three ways, Drop, fill, and replace, for missing, wrong, and outlier data.
 > ### Wrong data
 ![8](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/8.PNG)
-* Data unavailable due to case-sensitive -> Change uppercase to lowercase
+* Data unavailable due to case-sensitive -> Change uppercase to lowercase   
 ![9](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/9.PNG)
-* Replace wrong data to NA
+* Replace wrong data to NA  
 
 > ### Missing data
 > #### Drop missing data
