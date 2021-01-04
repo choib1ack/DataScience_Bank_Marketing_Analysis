@@ -70,11 +70,13 @@ If you want to watch our presentation material, please click on the link.
 ------------
 
 >> #### Second method
+>>> #### Numerical feature
 >>> **After grouping by related feature**, missing data of the numerical feature is replaced by linear regression predictions or median.
 * Median value
 ![13](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/13.PNG)    
 * Linear regression predictions
 ![14](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/14.PNG)   
+>>> #### Categorical feature
 **After grouping by related feature**, missing data of the categorical feature is replaced by the mode.
 ![15](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/15.PNG)
 
