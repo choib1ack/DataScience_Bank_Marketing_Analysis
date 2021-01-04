@@ -141,11 +141,9 @@ If you want to watch our presentation material, please click on the link.
 * Using XGBoost, we looked at the impact of the columns on the prediction of the target value and found that contact, poutcom, and duration had the highest importance.   
 ![25](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/25.png)
 * The more successful the previous marketing campaign, the higher the rate of regular deposit applications.   
-![26](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/26.png)
 * The more contacts were made before the campaign, the higher the rate of regular deposit applications.   
-![27](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/27.png)
+![26](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/26.png)
 * The longer the contact time, the higher the deposit application rate.   
-![28](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/28.png)
 * However, we could see that the more contact attempts, the lower the deposit application rate.
 
 ------------
