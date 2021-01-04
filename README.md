@@ -1,12 +1,11 @@
-Driver License Simulation(운전 뽀개기)
+Data Science project - Bank Marketing Analysis
 ===
 
 ## Objective Setting
 * When the bank conducts regular deposit marketing, it actually predicts whether the customer will apply for a regular deposit based on information such as the age of the customer and whether they will marry.
 
 ## Data Curation
-* We used the bank marketing dataset from kaggle.
-![Kaggle](https://www.kaggle.com/janiobachmann/bank-marketing-dataset)
+* We used the bank marketing dataset from [Kaggle](https://www.kaggle.com/janiobachmann/bank-marketing-dataset).
 
 ## Data Inspection
 > ### Head data
