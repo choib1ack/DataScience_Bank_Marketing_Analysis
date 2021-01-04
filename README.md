@@ -57,23 +57,23 @@ If you want to watch our presentation material, please click on the link.
 
 ------------
 > #### Replace missing value
-1. After grouping by target value,      
-**Missing data of the numerical feature is replaced by the median.**
+>> #### First method
+#### **After grouping by target value**, missing data of the numerical feature is replaced by the median.
 ![11](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/11.PNG)
 * The numetrical column 'age' replaces the missing value using median value of the age column of the customers who select 'yes' in the deposit column and median value of the age column of the customers who select 'no' in the deposit column.    
-&nbsp;**Missing data of the categorical feature is replaced by the mode.**
+#### **After grouping by target value**, missing data of the categorical feature is replaced by the mode.
 ![12](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/12.PNG)
 * The numetrical column 'marital' replaces the missing value using mode value of the marital column of the customers who select 'yes' in the deposit column and mode value of the marital column of the customers who select 'no' in the deposit column.
 
 ------------
 
-2. After grouping by related feature,     
-**Missing data of the numerical feature is replaced by linear regression predictions or median.**
+>> #### Second method
+#### **After grouping by related feature**, missing data of the numerical feature is replaced by linear regression predictions or median.
 * Median value
 ![13](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/13.PNG)    
 * Linear regression predictions
 ![14](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/14.PNG)   
-**Missing data of the categorical feature is replaced by the mode.**
+#### **After grouping by related feature**, missing data of the categorical feature is replaced by the mode.
 ![15](https://github.com/JunHeon-Ch/DataScience_Bank_Marketing_Analysis/blob/master/wiki_image/15.PNG)
 
 ------------
